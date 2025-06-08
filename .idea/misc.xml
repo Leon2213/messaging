@@ -5,6 +5,7 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/sender-backend/sender-backend/pom.xml" />
+        <option value="$PROJECT_DIR$/receiver-backend/receiver-backend/pom.xml" />
       </list>
     </option>
   </component>

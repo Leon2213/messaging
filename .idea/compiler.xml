@@ -7,14 +7,17 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="sender-backend" />
+        <module name="receiver-backend" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="receiver-backend" target="17" />
       <module name="sender-backend" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="receiver-backend" options="-parameters" />
       <module name="sender-backend" options="-parameters" />
     </option>
   </component>
